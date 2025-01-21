@@ -55,7 +55,7 @@ function App() {
 
                 <div className="footer">
                     <p>$TRUEAR</p>
-                    <p className="p2"><span>CA: </span>ErNmGo7Y5Gp5dxHePyYjP1WKKVisYXgrRQS2a4trump</p>
+                    <p className="p2"><span>CA: </span>urrqhaUEwnp3HvXPdNXb9pYVMcsQDaCMoPeXh7trump</p>
                 </div>
             </div>
 
