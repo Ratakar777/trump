@@ -16,8 +16,8 @@
   }
 
   .button {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease;
@@ -36,6 +36,6 @@
   }
 
   .buy-button {
-    width: 160px;
+    width: 120px;
   }
 }
