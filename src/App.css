@@ -74,9 +74,15 @@
   }
 
   .footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     p{
       color: #FFCE69;
       font-size: 30px;
+    }
+    .p2{
+      font-size: 14px;
     }
   }
 
