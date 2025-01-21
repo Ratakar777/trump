@@ -8,6 +8,7 @@ import buy from './assets/buttons/buy.png'
 import dexscreener from './assets/buttons/dexscreener.png'
 import dextools from './assets/buttons/dextools.png'
 import tel from './assets/buttons/tel.png'
+import trump from './assets/v1.png'
 
 function App() {
 
@@ -47,8 +48,8 @@ function App() {
 
                 </div>
 
-                <div className="main">
-
+                <div className="trump">
+                    <img draggable={false} src={trump} alt=""/>
                 </div>
             </div>
         </div>

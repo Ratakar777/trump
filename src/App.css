@@ -1,24 +1,28 @@
 .page {
-  width: 100%;
+  width: 100vw;
+  overflow-x: hidden;
 
   .container {
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .button-block {
     margin-top: 40px;
     justify-content: center;
     display: flex;
-    gap: 20px;
+    gap: 15px;
   }
 
   .button {
     height: 60px;
     width: 60px;
-    position: relative;
+
     overflow: hidden;
     transition: transform 0.3s ease;
 
@@ -37,5 +41,39 @@
 
   .buy-button {
     width: 120px;
+  }
+
+  .trump{
+    height: 75vh;
+    display: flex;
+    img{
+      margin: 0 auto;
+      width: 420px;
+    }
+  }
+  img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .button {
+      height: 40px;
+      width: 40px;
+    }
+
+    .buy-button {
+      width: 80px;
+    }
+
+    .trump{
+      img{
+
+        width: 360px;
+      }
+    }
   }
 }
