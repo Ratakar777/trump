@@ -1,15 +1,16 @@
 .page {
   margin-top: 15px;
+  width: 100vw;
+
   p{
     margin: 0;
     padding: 0;
-
     text-align: center;
     font-family: "Arial Black";
     font-weight: bold;
   }
   width: 100vw;
-  overflow-x: hidden;
+
 
   .container {
     margin: 0 auto;
@@ -106,6 +107,14 @@
     .trump{
       img{
         width: 320px;
+      }
+    }
+
+
+    .footer{
+
+      .p2{
+        font-size: 12px;
       }
     }
   }
