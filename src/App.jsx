@@ -17,30 +17,30 @@ function App() {
                 <div className="button-block">
 
                     <div className="button">
-                        <a href="https://t.me/TrumpEarMeme">
+                        <a target="_blank" href="https://t.me/TrumpEarMeme">
                             <img src={tel} alt="tel"/>
                         </a>
                     </div>
 
                     <div className="button">
-                        <a href="https://x.com/TrumpEarMeme">
+                        <a target="_blank" href="https://x.com/TrumpEarMeme">
                             <img src={x} alt="x"/>
                         </a>
                     </div>
 
                     <div className="button buy-button">
-                        <a href="">
+                        <a target="_blank" href="">
                             <img src={buy} alt="buy"/>
                         </a>
                     </div>
 
                     <div className="button">
-                        <a href="">
+                        <a target="_blank" href="">
                             <img src={dextools} alt="dextools"/>
                         </a>
                     </div>
                     <div className="button">
-                        <a href="">
+                        <a target="_blank" href="">
                             <img src={dexscreener} alt="dexscreener"/>
                         </a>
                     </div>
