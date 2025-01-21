@@ -31,18 +31,18 @@ function App() {
                     </div>
 
                     <div className="button buy-button">
-                        <a target="_blank" href="https://raydium.io/swap/?inputMint=sol&outputMint=ErNmGo7Y5Gp5dxHePyYjP1WKKVisYXgrRQS2a4trump">
+                        <a target="_blank" href="https://raydium.io/swap/?inputMint=sol&outputMint=urrqhaUEwnp3HvXPdNXb9pYVMcsQDaCMoPeXh7trump">
                             <img src={buy} alt="buy"/>
                         </a>
                     </div>
 
                     <div className="button">
-                        <a target="_blank" href="https://www.dextools.io/app/en/solana/pair-explorer/Dndvaw7Fq73tWqQVoFTwSovQdjKak6ke2SVJR62NYq6e">
+                        <a target="_blank" href="https://www.dextools.io/app/en/solana/pair-explorer/5AjRTjHtFQXJCWzwxbcw6L85qwykt7JnnBBXbNCW9rsk">
                             <img src={dextools} alt="dextools"/>
                         </a>
                     </div>
                     <div className="button">
-                        <a target="_blank" href="https://dexscreener.com/solana/ErNmGo7Y5Gp5dxHePyYjP1WKKVisYXgrRQS2a4trump">
+                        <a target="_blank" href="https://dexscreener.com/solana/urrqhaUEwnp3HvXPdNXb9pYVMcsQDaCMoPeXh7trump">
                             <img src={dexscreener} alt="dexscreener"/>
                         </a>
                     </div>
