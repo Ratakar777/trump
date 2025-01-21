@@ -15,6 +15,7 @@ function App() {
     return (
         <div className="page">
             <div className="container">
+                <p className="title">The official ear of Donald Trump</p>
                 <div className="button-block">
 
                     <div className="button">
@@ -51,7 +52,13 @@ function App() {
                 <div className="trump">
                     <img draggable={false} src={trump} alt=""/>
                 </div>
+
+                <div className="footer">
+                    <p>$TRUEAR</p>
+                </div>
             </div>
+
+
         </div>
     )
 }
